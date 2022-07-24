@@ -1,0 +1,27 @@
+<!--Stylesheet-->
+<style>
+body{background-color: black; 
+font-family: arial;
+  color: white;
+}
+h1{color:grey;
+font-family: veranda;
+}
+.maindiv{
+background-color: white;
+color: black;
+width: 500px;              <!--px; pixels(1px=1/96th of 1 in.)-->
+padding: 20px;
+border-radius:25px;
+align: center;
+}
+.maindiv{
+ padding-top: 15px;
+padding-left: 50px;
+position: relative;
+top: 8em;                 
+left: 25em;  
+   
+</style>
+  <!--Script-->
+   
