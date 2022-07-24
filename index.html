@@ -1,0 +1,51 @@
+<!--DOCTYPE Specifies Type Of Doc EX. html-->
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8"> <!--displays content type as hypertext transfer protocol as in text or hypertext markup language-->
+  
+      <link rel="stylesheet" href="style.css">     <!--link rel attribute specifies the relationship between the current document and the linked document/resource for browser support-->
+ <script src="script.js">
+ </script>      <!--script source specifies the URL of an external script file-->
+<title>Web App-Simple Interest Calculator
+</title>
+</head>
+<body>
+        <div class="maindiv">    <!--div class a section of the document in the main for styling purposes-->
+<h1>
+<center>Simple Interest Calculator
+</center>
+        <div class="innerdiv">
+</h1>  
+<p>     <label for="Amount">Amount&emsp;&emsp;</label>   <!--&emsp; alternative spacing instead of using span tag-->
+        <input type="number" id="principal"><br/></br/>
+</p>
+<p>     <div class="slider">
+        <label for="Interest Rate">Interest Rate</label>&emsp; <input type="range" min="1" max="20" step="0.25" id="rate" onchange="return updaterate()">
+      <output><span id="return">10.25</span>%</span></output>
+      <br/></br/>
+</p>
+        <label for="No. of Years">No. of Years&emsp;</label>    <!--label tag for creating labels-->
+        <select id="Years" name="No of. Years">             <!--select and option value creates a drop down menu for selections-->
+        <option value="First Chioce">1</option> 
+        <option value="Second Choice">2</option>
+        <option value="Third Choice">3</option>
+    										<option value="Fourth Choice">4</option>   
+        <option value="Fifth Choice">5</option>
+        <option value="Sixth Choice">6</option>
+        <option value="Seventh Choice">7</option>
+        <option value="Eighth Choice">8</option>
+        <option value="Ninth Choice">9</option>
+        <option value="Tenth Choice">10</option>
+ </select><br/></br/>
+<button onclick="compute()">Compute Interest</button>
+<p id="outputPrincipal"></p>
+  <p id="outputInterest"></p>
+  <p id="Finalvalue"></p>
+  <p id="Finalyear"></p>
+    </div>
+<footer>&#169;This Calculator Belongs To Ari-create!&emsp;@ Everyone Can Get Rich</footer>
+ 
+</body>
+</html>
